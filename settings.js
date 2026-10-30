@@ -66,6 +66,12 @@ window.PORTFOLIO = {
   // Add real notes or papers here when ready. See START-HERE.txt for an example.
   writings: [],
   projects: {
+    drone: {
+      title: 'Drone world simulation',
+      period: 'February–April 2026',
+      description: 'A simulated drone environment with working controls, objects, and obstacles, connecting ROS2 control nodes with the PX4 autopilot suite.',
+      source: ''
+    },
     math: {
       title: 'MathScribble',
       description: 'A formula, a phrase, a little curiosity. Turn what you type into flowing mathematical animations.',

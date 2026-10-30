@@ -50,8 +50,13 @@
     const description = article.querySelector('[data-project-description]');
     if (title && typeof project.title === 'string') title.textContent = project.title;
     if (description && typeof project.description === 'string') description.textContent = project.description;
+    const period = article.querySelector('[data-project-period]');
+    if (period && typeof project.period === 'string') period.textContent = project.period;
     const url = safeUrl(project.source);
-    if (url) article.querySelectorAll('[data-project-source]').forEach(link => { link.href = url; });
+    article.querySelectorAll('[data-project-source]').forEach(link => {
+      link.hidden = !url;
+      if (url) link.href = url;
+    });
   });
 
   const cvUrl = safeUrl(settings.cvUrl, true);

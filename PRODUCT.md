@@ -31,6 +31,7 @@ A personal portfolio for Palak Sharma, with a description, projects, a CV sectio
 
 - Existing index.html and browser icons.
 - Public projects: Math-Simulations, gesture-3d-viewer, and canvas-keyboard-app, under github.com/palaksharma3.
+- Owner-supplied project: Drone world simulation and ROS2/PX4 integration, February–April 2026. A simulated world with working drone controls, objects, and obstacles; px4ros2ws and teleop_px4 workspaces built with colcon; ROS2 nodes integrated with PX4 for simulated telemetry and flight command handling. No public repository, demo URL, or actual project screenshot was supplied. Do not claim real-world flight testing or autonomous path planning; project artwork is explicitly illustrative.
 - LinkedIn, confirmed by owner: https://www.linkedin.com/in/palaksharma3/.
 - Instagram, confirmed by owner: https://www.instagram.com/palak.sharma.3/.
 - X, confirmed by owner: https://x.com/palaksharma3_.
