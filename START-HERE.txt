@@ -1,0 +1,67 @@
+YOUR PORTFOLIO — A QUICK GUIDE
+
+These are local files only. Nothing here automatically creates a GitHub repository or changes your live website.
+
+PREVIEW
+Double-click index.html to see the website in a browser. Or use a local server:
+  python -m http.server 4173
+Then open http://localhost:4173
+
+EDIT YOUR DETAILS
+Open settings.js in a text editor. Your name, description, biography, email, social links, achievements, animated profile stories, CV link, and project summaries are there. Save and refresh the browser.
+Keep the quotation marks and commas when editing JavaScript. For an apostrophe in text, use a curly apostrophe (’) or escape a straight one (\').
+
+ADD YOUR CV LATER
+1. Copy your PDF into the assets folder and name it cv.pdf.
+2. In settings.js, replace:
+     cvUrl: '',
+   with:
+     cvUrl: 'assets/cv.pdf',
+3. Refresh the browser. The CV section will now have a working download button.
+Make sure the PDF contains only information you want to share publicly.
+
+ADD A MATHS NOTE OR SHORT PAPER
+There are no fake papers on the site. Writing starts empty, ready for your own work.
+1. Put your finished PDF or HTML page in the assets folder.
+2. In settings.js, replace writings: [], with something like:
+   writings: [
+     {
+       title: 'The title of my actual note',
+       type: 'Short paper',
+       summary: 'A short description of what this note explores.',
+       url: 'assets/my-note.pdf'
+     }
+   ],
+3. Refresh the browser. The notebook and the home page will display your entry automatically.
+Use 'Mathematical note' or 'Short paper' for the type. The file must exist at the URL you enter. External HTTPS links also work. To add more entries, separate the objects with commas.
+
+EDIT ACHIEVEMENTS AND THE ANIMATED PROFILE
+The achievements array in settings.js controls the milestone list. Each item has period, title, result, and description.
+The stories object controls the Student, Builder, and Explorer text shown with the large animation.
+
+CHANGE THE DESIGN
+portfolio.css contains the charcoal-and-purple colours, typography, and responsive styles. The colour tokens are at the top.
+script.js contains the animation and interactions.
+index.html is the home page, including About, Achievements, Writing, CV, and Contact.
+projects.html is the separate Projects tab.
+writing.html is the maths notebook tab.
+404.html is the not-found page.
+
+ADD A NEW PROJECT
+The project layouts live in index.html and projects.html. Copy one project article, give it a unique ID, and change its title, text, image, and links. Add its details to settings.js if you want to manage it there.
+Uploading an image or PDF alone does not display it in a page; the page must link to the file.
+
+YOUR PHOTO
+The portrait uses mypiccc.jpg from the main website folder. Keep that file with the site when you copy or upload it. The original photograph is not cropped or retouched. To change it, replace the file or update its image path in index.html.
+
+4D ANIMATIONS
+The profile controls show a tesseract, a 16-cell, and a Clifford torus. These are constructed with four spatial coordinates, rotated in 4D, and projected into 3D and then onto your screen. The Clifford torus is a two-dimensional surface embedded in 4D space. geometry4d.js holds the mathematical construction and projection; script.js draws the scene.
+Use the motion button in the header to pause or resume animation. The site also respects the operating system’s reduced-motion preference. The canvas pauses when off screen or in a background tab.
+
+PUBLISHING (ONLY WHEN YOU CHOOSE)
+Upload the website files and the assets folder together. Keep the filenames and folder structure. No build command, npm install, API key, or framework is needed.
+The current public domain is linked as requested; this local work does not repair or change its hosting configuration.
+
+SOURCE AND DOCUMENTATION
+PRODUCT.md and DESIGN.md describe the portfolio and its design. They are documentation, not visible website pages, and can be omitted from a deployment.
+The browser icons and original project illustrations now match the charcoal-and-purple design. Archivo and Sora are included with their open-font licenses in assets/fonts. The previous design is backed up outside this website folder.
