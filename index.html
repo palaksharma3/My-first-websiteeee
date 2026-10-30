@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palak Sharma — Researcher | IIT Delhi</title>
+  <meta name="description" content="Palak Sharma — Researcher | IIT Delhi">
+  <meta name="theme-color" content="#0d3a8c">
+  <link rel="canonical" href="https://palaksharma.tech/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://palaksharma.tech/">
+  <meta property="og:title" content="Palak Sharma">
+  <meta property="og:description" content="Researcher | IIT Delhi">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap">
+  <style>
+    :root {
+      --field: #0d3a8c;
+      --ink: #ffffff;
+      --ink-soft: #d6e1ff;
+      --route: #e0398f;
+      --pad: clamp(1.5rem, 7vw, 7rem);
+      --rail: clamp(6px, 0.75vw, 10px);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: grid;
+      align-content: center;
+      padding-block: 4rem 6rem;
+      background: var(--field);
+      color: var(--ink);
+      font-family: "Archivo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::selection { background: var(--route); color: var(--ink); }
+
+    h1 {
+      margin: 0;
+      padding-inline: var(--pad);
+      font-size: clamp(2.75rem, 11vw, 6rem);
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: -0.025em;
+      text-wrap: balance;
+    }
+
+    .route {
+      position: relative;
+      height: var(--rail);
+      margin: clamp(1.5rem, 3.5vw, 2.5rem) 0 clamp(1.25rem, 3vw, 2rem) var(--pad);
+    }
+
+    .route::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: var(--route);
+      transform-origin: left center;
+      animation: draw 1.4s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+    }
+
+    .stop {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: calc(var(--rail) * 3.2);
+      height: calc(var(--rail) * 3.2);
+      border: calc(var(--rail) * 0.9) solid var(--route);
+      border-radius: 50%;
+      background: var(--ink);
+      transform: translateY(-50%);
+    }
+
+    p {
+      margin: 0;
+      padding-inline: var(--pad);
+      font-size: clamp(1.05rem, 2.4vw, 1.5rem);
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      color: var(--ink-soft);
+    }
+
+    @keyframes draw {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .route::before { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Palak Sharma</h1>
+    <div class="route" aria-hidden="true"><span class="stop"></span></div>
+    <p>Researcher | IIT Delhi</p>
+  </main>
+</body>
+</html>
