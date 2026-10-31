@@ -52,7 +52,8 @@ The project layouts live in index.html and projects.html. Copy one project artic
 Uploading an image or PDF alone does not display it in a page; the page must link to the file.
 
 YOUR PHOTO
-The portrait uses mypiccc.jpg from the main website folder. Keep that file with the site when you copy or upload it. The original photograph is not cropped or retouched. To change it, replace the file or update its image path in index.html.
+The portrait uses assets/palak-portrait.jpg (960 x 1200) and assets/palak-portrait-480.jpg (480 x 600). Both are a 4:5 head-and-shoulders crop of Linkedinphoto.JPG. Your original photo is untouched and is not loaded by the website.
+To change the portrait, replace both files with a 4:5 crop, keeping the same names. Upload the whole assets folder with the site, or the photo and project images will be missing online.
 
 4D ANIMATIONS
 The profile controls show a tesseract, a 16-cell, and a Clifford torus. These are constructed with four spatial coordinates, rotated in 4D, and projected into 3D and then onto your screen. The Clifford torus is a two-dimensional surface embedded in 4D space. geometry4d.js holds the mathematical construction and projection; script.js draws the scene.

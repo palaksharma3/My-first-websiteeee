@@ -39,7 +39,7 @@ A personal portfolio for Palak Sharma, with a description, projects, a CV sectio
 - YouTube, confirmed by owner: https://www.youtube.com/@PalakIIT-DELHI29.
 - Contact email, explicitly supplied for publication: palak03122007@gmail.com.
 - Owner-supplied achievements: JEE Main 2025 AIR 1105 (top approximately 0.1% nationally); JEE Advanced 2025 AIR 4074, securing admission to IIT Delhi; top-10 national finalist among 1,000+ teams at eRaksha Hackathon (January 2026), for an autonomous cybersecurity threat-detection agentic system with custom rule-based anomaly scoring; first place at Stratazenith, Tryst 2026, IIT Delhi, a game theory and strategic puzzle tournament hosted by the Indian Game Theory Society.
-- The owner supplied mypiccc.jpg (460 × 460) for her portrait and explicitly added an interest in higher-dimensional geometry.
+- The owner replaced her portrait with Linkedinphoto.JPG (2568 × 3676) and asked for it to be zoomed to the correct ratio. The site uses an unretouched 4:5 head-and-shoulders crop in assets/palak-portrait.jpg and assets/palak-portrait-480.jpg. She also explicitly added an interest in higher-dimensional geometry.
 - The profile animation must use genuine four-dimensional geometry with clear 4D-to-3D-to-screen projection labels, not a 3D effect presented as literal 4D vision.
 - No CV or completed mathematical papers were supplied. Writing is planned; do not fabricate article titles, publication dates, or papers.
 

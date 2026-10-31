@@ -33,7 +33,7 @@ The Canvas 2D scene draws actual four-coordinate geometry, rotating in the XW, Y
 - The builder: a 16-cell (8 vertices, 24 edges), paired with embedded firmware, AXLR8R Racing, and practical systems.
 - The explorer: a Clifford torus, correctly described as a two-dimensional surface embedded in 4D space, paired with higher-dimensional geometry, mathematical animation, game theory, and future writing.
 
-The original portrait mypiccc.jpg is shown uncropped at its natural square aspect ratio in the About section. Its colours and contents are not retouched.
+The About portrait is a 4:5 head-and-shoulders crop of the owner's Linkedinphoto.JPG, with the eyes near the upper third. It is served as assets/palak-portrait.jpg (960 × 1200) with a 480 × 600 version for smaller screens. It is framed at 320px wide (300px on small phones). The photo is cropped and resized only; colours and contents are not retouched.
 
 Each state changes both geometry and visible biographical information. A polite live region announces the selected story. Stable factual labels remain legible around the scene. The opening name uses one short masked arrival, and labels float gently; there is no scroll hijacking, typing loop, or forced scene transition.
 
