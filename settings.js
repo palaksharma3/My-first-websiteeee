@@ -66,6 +66,12 @@ window.PORTFOLIO = {
   // Add real notes or papers here when ready. See START-HERE.txt for an example.
   writings: [],
   projects: {
+    namma: {
+      title: 'Namma Space',
+      period: 'October–November 2026',
+      description: 'A phone scan of my home, turned into a photorealistic 3D world you can walk through in the browser. Built for Namma Space at Techfest 2026-27, IIT Bombay.',
+      source: 'https://github.com/palaksharma3/Namma-space'
+    },
     drone: {
       title: 'Drone world simulation',
       period: 'February–April 2026',
