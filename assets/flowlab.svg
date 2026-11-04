@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="600" viewBox="0 0 840 600">
+<rect width="840" height="600" fill="#1b191f"/>
+<g fill="none" stroke="#a87ee8" stroke-width="2.5"><path d="M60 130C260 130 300 100 420 100S580 130 780 130"/><path d="M60 185C240 185 280 140 420 140S600 185 780 185"/><path d="M60 240C270 240 285 180 420 180S570 240 780 240"/><path d="M60 300C280 300 300 215 420 215S560 300 780 300"/><path d="M60 300C280 300 300 385 420 385S560 300 780 300"/><path d="M60 360C270 360 285 420 420 420S570 360 780 360"/><path d="M60 415C240 415 280 460 420 460S600 415 780 415"/><path d="M60 470C260 470 300 500 420 500S580 470 780 470"/></g>
+<circle cx="420" cy="300" r="74" fill="#211d28" stroke="#c5a5ff" stroke-width="2"/>
+<g fill="#f4f0f8"><circle cx="220" cy="237" r="5"/><circle cx="550" cy="201" r="5"/><circle cx="635" cy="356" r="5"/><circle cx="335" cy="450" r="5"/></g>
+<g fill="none" stroke="#c5a5ff" stroke-width="3"><path d="m155 179 8 6-8 6m510 218 8 6-8 6"/></g>
+<g fill="#b7afc2" font-family="Arial,sans-serif" font-size="18"><text x="60" y="67">UNIFORM FLOW + DOUBLET</text><text x="60" y="558">Concept illustration · ideal potential flow around a cylinder</text></g>
+</svg>

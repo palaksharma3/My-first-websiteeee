@@ -52,10 +52,12 @@
     if (description && typeof project.description === 'string') description.textContent = project.description;
     const period = article.querySelector('[data-project-period]');
     if (period && typeof project.period === 'string') period.textContent = project.period;
-    const url = safeUrl(project.source);
-    article.querySelectorAll('[data-project-source]').forEach(link => {
-      link.hidden = !url;
-      if (url) link.href = url;
+    ['source', 'live'].forEach(kind => {
+      const url = safeUrl(project[kind]);
+      article.querySelectorAll(`[data-project-${kind}]`).forEach(link => {
+        link.hidden = !url;
+        if (url) link.href = url;
+      });
     });
   });
 

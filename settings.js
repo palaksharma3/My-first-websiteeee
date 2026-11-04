@@ -66,6 +66,18 @@ window.PORTFOLIO = {
   // Add real notes or papers here when ready. See START-HERE.txt for an example.
   writings: [],
   projects: {
+    breastCell: {
+      title: 'Breast Cell Classification',
+      description: 'An educational machine-learning demo that classifies breast-cell measurements with Gaussian Naive Bayes. Explore sample cases and editable numerical inputs—not medical images or a clinical diagnosis.',
+      live: 'https://palak-breast-cell-demo.streamlit.app/',
+      source: 'https://github.com/palaksharma3/breast-cell-classification-demo'
+    },
+    flowlab: {
+      title: 'FlowLab',
+      description: 'An interactive fluid-mechanics workbench for combining elementary potential flows. Build a flow field, follow animated tracers, and probe its velocity in the browser.',
+      live: 'https://palaksharma3.github.io/Elementary-Flows/',
+      source: 'https://github.com/palaksharma3/Elementary-Flows'
+    },
     namma: {
       title: 'Namma Space',
       period: 'October–November 2026',
