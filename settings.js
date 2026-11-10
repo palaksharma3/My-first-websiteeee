@@ -67,10 +67,10 @@ window.PORTFOLIO = {
   writings: [],
   projects: {
     breastCell: {
-      title: 'Breast Cell Classification',
-      description: 'An educational machine-learning demo that classifies breast-cell measurements with Gaussian Naive Bayes. Explore sample cases and editable numerical inputs—not medical images or a clinical diagnosis.',
-      live: 'https://palak-breast-cell-demo.streamlit.app/',
-      source: 'https://github.com/palaksharma3/breast-cell-classification-demo'
+      title: 'Cancer Cell Classification',
+      description: 'An educational machine-learning demo that classifies cancer-cell measurements with Gaussian Naive Bayes. Explore sample cases and editable numerical inputs—not medical images or a clinical diagnosis.',
+      live: 'https://cancer-cell-classification.streamlit.app/',
+      source: 'https://github.com/palaksharma3/cancer-cell-classification-demo'
     },
     flowlab: {
       title: 'FlowLab',

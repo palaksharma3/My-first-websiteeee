@@ -50,7 +50,7 @@ writing.html is the maths notebook tab.
 ADD A NEW PROJECT
 The project layouts live in index.html and projects.html. Copy one project article, give it a unique ID, and change its title, text, image, and links. Add its details to settings.js if you want to manage it there.
 Uploading an image or PDF alone does not display it in a page; the page must link to the file.
-Breast Cell Classification and FlowLab have live and source URLs in settings.js. Their project links use data-project-live and data-project-source so edits there update the buttons. Keep the matching fallback links and descriptions in projects.html current for visitors without JavaScript.
+Cancer Cell Classification and FlowLab have live and source URLs in settings.js. Their project links use data-project-live and data-project-source so edits there update the buttons. Keep the matching fallback links and descriptions in projects.html current for visitors without JavaScript.
 When adding a project, update the initial project count and add or reuse a matching filter in projects.html; the interactive counts update automatically. Keep the homepage project index in sync.
 
 YOUR PHOTO
