@@ -70,3 +70,13 @@ The existing Vercel integration deploys updates to main to this site. Editing th
 SOURCE AND DOCUMENTATION
 PRODUCT.md and DESIGN.md describe the portfolio and its design. They are documentation, not visible website pages, and can be omitted from a deployment.
 The browser icons and original project illustrations now match the charcoal-and-purple design. Archivo and Sora are included with their open-font licenses in assets/fonts. The previous design is backed up outside this website folder.
+
+SEO (HELPING GOOGLE FIND YOU)
+Already set up in the files: page titles and descriptions, link-preview tags, an "ID card" for Google (the JSON-LD script in the <head> of each page), robots.txt and sitemap.xml. All addresses use https://www.palaksharma.tech because that is the live address.
+robots.txt tells search engines they may visit every page and where the page list is. sitemap.xml is that page list. Google finds both on its own, but you can speed it up:
+1. Google Search Console (search.google.com/search-console): add the domain palaksharma.tech, verify it with the DNS record it gives you (add it where you bought the domain), open Sitemaps and submit https://www.palaksharma.tech/sitemap.xml, then use URL Inspection > Request indexing on the home page.
+2. Bing Webmaster Tools (bing.com/webmasters): sign in and choose "Import from Google Search Console".
+3. Put https://www.palaksharma.tech in your GitHub profile, the "Website" box of each repository, your LinkedIn contact info, and your X and Instagram bios. Links from these sites tell Google this is the official Palak Sharma site.
+4. After publishing, test with search.google.com/test/rich-results (the ID card) and pagespeed.web.dev (speed).
+5. When you add or change a page, add or update it in sitemap.xml and change its <lastmod> date. When you change your social links in settings.js, also update the "sameAs" list in the JSON-LD script in index.html.
+Results take days to weeks. Writing notes in the maths notebook regularly helps the most over time.
