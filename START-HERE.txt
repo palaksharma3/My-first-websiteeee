@@ -11,13 +11,10 @@ EDIT YOUR DETAILS
 Open settings.js in a text editor. Your name, description, biography, email, social links, achievements, animated profile stories, CV link, and project summaries are there. Save and refresh the browser.
 Keep the quotation marks and commas when editing JavaScript. For an apostrophe in text, use a curly apostrophe (’) or escape a straight one (\').
 
-ADD YOUR CV LATER
-1. Copy your PDF into the assets folder and name it cv.pdf.
-2. In settings.js, replace:
-     cvUrl: '',
-   with:
-     cvUrl: 'assets/cv.pdf',
-3. Refresh the browser. The CV section will now have a working download button.
+YOUR CV
+Your CV is assets/cv.pdf (a copy of Resume.pdf). The home page's CV section has a "Download CV" button for it.
+To update it, replace assets/cv.pdf with your new PDF, keep the name cv.pdf, and upload it. Nothing else needs to change.
+To take it down, delete assets/cv.pdf and change cvUrl: 'assets/cv.pdf', to cvUrl: '', in settings.js. The section will say "CV coming soon" again.
 Make sure the PDF contains only information you want to share publicly.
 
 ADD A MATHS NOTE OR SHORT PAPER

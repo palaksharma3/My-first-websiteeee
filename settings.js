@@ -18,8 +18,8 @@ window.PORTFOLIO = {
     youtube: 'https://www.youtube.com/@PalakIIT-DELHI29',
     website: 'https://palaksharma.tech/'
   },
-  // Put your PDF in assets, then set this to 'assets/cv.pdf'.
-  cvUrl: '',
+  // To update your CV, replace assets/cv.pdf with the new PDF and keep the same name.
+  cvUrl: 'assets/cv.pdf',
   stories: {
     bloom: {
       title: 'Learning, by asking why.',

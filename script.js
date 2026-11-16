@@ -55,8 +55,13 @@
     ['source', 'live'].forEach(kind => {
       const url = safeUrl(project[kind]);
       article.querySelectorAll(`[data-project-${kind}]`).forEach(link => {
-        link.hidden = !url;
-        if (url) link.href = url;
+        // Remove placeholders with no destination so search engines don't see empty links.
+        if (!url) {
+          link.remove();
+          return;
+        }
+        link.href = url;
+        link.hidden = false;
       });
     });
   });
@@ -71,6 +76,10 @@
     });
     document.querySelectorAll('[data-cv-pending]').forEach(node => { node.hidden = true; });
     setText('[data-cv-description]', 'Education, projects, and interests, in one place. Download a copy of my curriculum vitae.');
+  } else {
+    document.querySelectorAll('[data-cv-download]').forEach(link => link.remove());
+    document.querySelectorAll('[data-cv-pending]').forEach(node => { node.hidden = false; });
+    setText('[data-cv-description]', 'My CV will be available here soon. Until then, you can explore my work or get in touch.');
   }
 
   if (typeof settings.email === 'string' && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(settings.email)) {
